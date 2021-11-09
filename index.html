@@ -10,17 +10,17 @@
 
     <title>Stefano Torres CSD</title>
   </head>
-  <body>
-    <header>
-      <div class="bg-dark bg-gradient mb-1">
+  <body class="bg-light">
+    <header class="container">
+      <div class="bg-light bg-gradient">
         <div class="d-flex flex-column align-items-center p-5">
-          <h1 class="display-3 text-light">Stefano Torres</h1>
-          <p class="lead text-white">
+          <h1 class="display-3 text-dark">Stefano Torres</h1>
+          <p class="lead text-dark">
             Junior Computer Software Developer
           </p>
         </div>
       </div>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <img src="../img/personalLogo.png" alt="Personal Logo" width="30" height="24">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -45,35 +45,72 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="bg-image" style="background-image: url(../img/banner_image.webp); height: 100vh;">
-        <div class="d-flex justify-content-center">
-          <div class="d-flex w-25 pt-5">
-            <img src="../img/Stefano_Photo.jpg" class="rounded img-fluid" alt="Photo of Stefano Torres">
+
+    <main class="container">
+      <div class="bg-light bg-gradient bg-opacity-75 p-5">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/Stefano_photo_small.png" class="bg-secondary bg-opacity-50" alt="">
+            </div>
           </div>
+          <div class="col-12 col-lg-5 col-lg-offset-2 p-4">
+            <h2 class="display-2">Hello</h2>
+            <p class="display-5">Welcome to my webpage</p>
+            <p>Im an up-and-coming computer software developer with experience in a wide range of programming languages, and a passion for learning. This website was created to give potential employers insight on who I am and what I can offer them as a new hire.</p>
+          </div>
+        </div>
+        <div class="row mt-2 justify-content-around">
+          <div class="card mt-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">If you want to know a bit more about me as a person, check out my about page.</p>
+              <a href="#" class="btn btn-primary">About</a>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Skills and Experience</h5>
+              <p class="card-text">A quick rundown of some of the experiences and skills I've developed over the years</p>
+              <a href="#" class="btn btn-primary">Skills</a>
+            </div>
+          </div>
+          <div class="card mt-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Projects</h5>
+              <p class="card-text">You can check out a bit more information on some of the projects im working on here on my projects page, or check out my github to see all my projects.</p>
+              <a href="#" class="btn btn-primary ">Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
         </div>
       </div>
     </main>
-    <footer>
-      <div class="bg-dark bg-gradient mt-1">
-        <div class="d-flex align-items-top p-5 text-light justify-content-around">
-          <div>
-            <p>Social:</p>
+
+    <footer class="bg-dark bg-gradient p-5">
+      <div class="container">
+        <div class="row text-light">
+          <div class="col-lg-3 pt-4">
+            <h4>Social:</h4>
             <ul class="list-unstyled">
               <li><a href="https://www.linkedin.com/in/stefano-torres-20726b212/?originalSubdomain=ca">LinkedIn</a></li>
               <li><a href="https://github.com/StefanoTorres">Github</a></li>
             </ul>
           </div>
-          <div>
-            <p>Email</p>
+          <div class="col-lg-4 pt-4">
+            <h4>Email:</h4>
             <p>sptorres@ualberta.ca</p>
           </div>
-          <div>
-            <p>Copyright</p>
+          <div class="col-lg-4 pt-4">
+            <h4>Copyright:</h4>
             <p>&copy; 2021 Stefano Torres. All rights reserved</p>
           </div>
         </div>
-      </div>
     </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
